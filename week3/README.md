@@ -1,0 +1,1 @@
+#Please use the command "sudo puppet apply -t --modulepath=/etc/puppet/code/modules /etc/puppet/manifests/site.pp" to perform the 'puppet apply' test instructions. We encountered difficulties when we tried to use relative pathing.
