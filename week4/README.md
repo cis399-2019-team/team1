@@ -10,24 +10,12 @@ Week 4 Deliverables
 
 2.  Access log
 
-    ubuntu@ip-10-0-1-84:/var/log/apache2$ sudo less access.log
-24.20.207.204 - - [22/Jul/2019:20:31:18 +0000] "GET / HTTP/1.1" 200 446 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0"
-10.0.1.105 - - [22/Jul/2019:21:00:34 +0000] "GET /index.html HTTP/1.1" 200 425 "-" "ELB-HealthChecker/1.0"
-10.0.1.105 - - [22/Jul/2019:21:01:04 +0000] "GET /index.html HTTP/1.1" 200 425 "-" "ELB-HealthChecker/1.0"
-10.0.1.105 - - [22/Jul/2019:21:01:18 +0000] "GET /favicon.ico HTTP/1.1" 404 542 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0"
-10.0.1.105 - - [22/Jul/2019:21:01:34 +0000] "GET /index.html HTTP/1.1" 200 425 "-" "ELB-HealthChecker/1.0"
-10.0.1.105 - - [22/Jul/2019:21:02:04 +0000] "GET /index.html HTTP/1.1" 200 425 "-" "ELB-HealthChecker/1.0"
-10.0.1.105 - - [22/Jul/2019:21:02:10 +0000] "-" 408 0 "-" "-"
-10.0.1.105 - - [22/Jul/2019:21:02:10 +0000] "-" 408 0 "-" "-"
-10.0.1.105 - - [22/Jul/2019:21:02:15 +0000] "-" 408 0 "-" "-"
-10.0.1.105 - - [22/Jul/2019:21:02:15 +0000] "-" 408 0 "-" "-"
-10.0.1.223 - - [22/Jul/2019:21:02:30 +0000] "GET /index.html HTTP/1.1" 200 425 "-" "ELB-HealthChecker/1.0"
-10.0.1.105 - - [22/Jul/2019:21:02:34 +0000] "GET /index.html HTTP/1.1" 200 425 "-" "ELB-HealthChecker/1.0"
-10.0.1.223 - - [22/Jul/2019:21:05:00 +0000] "GET /index.html HTTP/1.1" 200 425 "-" "ELB-HealthChecker/1.0"
-10.0.1.105 - - [22/Jul/2019:21:05:04 +0000] "GET /index.html HTTP/1.1" 200 425 "-" "ELB-HealthChecker/1.0"
-10.0.1.223 - - [22/Jul/2019:21:05:30 +0000] "GET /index.html HTTP/1.1" 200 425 "-" "ELB-HealthChecker/1.0"
-10.0.1.105 - - [22/Jul/2019:21:05:34 +0000] "GET /index.html HTTP/1.1" 200 425 "-" "ELB-HealthChecker/1.0"
-10.0.1.223 - - [22/Jul/2019:21:06:00 +0000] "GET /index.html HTTP/1.1" 200 425 "-" "ELB-HealthChecker/1.0"
+    24.20.207.204 - - [23/Jul/2019:01:49:23 +0000] "GET / HTTP/1.1" 200 446 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0"
+    24.20.207.204 - - [23/Jul/2019:01:49:23 +0000] "GET /favicon.ico HTTP/1.1" 404 505 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0"
+    24.20.207.204 - - [23/Jul/2019:01:49:24 +0000] "GET / HTTP/1.1" 200 446 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0"
+    24.20.207.204 - - [23/Jul/2019:01:49:25 +0000] "GET / HTTP/1.1" 200 445 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0"
+    24.20.207.204 - - [23/Jul/2019:01:49:26 +0000] "GET / HTTP/1.1" 200 445 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0"
+
 
 3. Domain name of the load balancer
 
