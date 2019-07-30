@@ -11,6 +11,13 @@
 | defaultName       |   true        | Logged in on first try using Putty with hostname keir@ec2-54-190-27-30.us-west-2.compute.amazonaws.com    |
     
 ### 2. User Login History on Instance **karmstr7_1**
+
+`Instance: karmstr7_1`
+
+``Public IP: 34.212.149.129``
+
+``Public DNS: ec2-34-212-149-129.us-west-2.compute.amazonaws.com``
+
 ```
 ubuntu@ip-10-0-1-84:/etc/puppet$ last
 manhim   pts/0        208.85.237.51    Tue Jul 30 19:35 - 19:36  (00:01)
