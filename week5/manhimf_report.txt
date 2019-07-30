@@ -1,6 +1,7 @@
 I successfully login to team 9 instance
 I successfully login to MapMoney instance
 I successfully login to Aquabee instance
+I successfully login to defaultName instance
 
 
 Since I misunderstood the assignment, i thought only need one member in my group to login other's people instance. So I just shared my key yesterday late night. Not many group has add my permission. Sorry about the late and misunderstanding
