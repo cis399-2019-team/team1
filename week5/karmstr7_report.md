@@ -10,7 +10,7 @@
 | Team Rocket       |   true        | Logged in on first try using Putty with hostname keir@ec2-34-213-26-250.us-west-2.compute.amazonaws.com   |
 | defaultName       |   true        | Logged in on first try using Putty with hostname keir@ec2-54-190-27-30.us-west-2.compute.amazonaws.com    |
     
-### 2. User Login History on Instance **karmstr7_1**
+### 2. Login History
 
 `Instance: karmstr7_1`
 
