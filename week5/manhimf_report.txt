@@ -1,0 +1,24 @@
+I successfully login to team 9 instance
+I successfully login to MapMoney instance
+I successfully login to Aquabee instance
+
+
+Since I misunderstood the assignment, i thought only need one member in my group to login other's people instance. So I just shared my key yesterday late night. Not many group has add my permission. Sorry about the late and misunderstanding
+
+Here is the login log for my instance
+
+ UID USER   PROC PWD-LOCK PWD-DENY LAST-LOGIN GECOS
+   0 root     80        0        1            root
+1000 ubuntu    4        0        1      18:13 Ubuntu
+1001 stevev    0        0        1            Steve VanDevender
+1002 jerry     0        0        1            Jerry
+1003 mapu      0        0        1            Mapu
+1004 henzi     0        0        1            Henzi
+1005 owen      0        0        1            Owen
+1006 james     0        0        1            James
+1007 rico      0        0        1            Rico
+1008 kylie     0        0        1            Kylie
+1009 devin     0        0        1            Devin
+1010 lucas     0        0        1            Lucas
+1011 austin    0        0        1            Austin
+1012 manhim    0        0        1            Adrian
