@@ -1,0 +1,80 @@
+## Trigger CPU Utilization Alarm
+
+
+ALARM: "awsec2-i-0f6ea9f788bbef588-CPU-Utilization" in US West (Oregon)
+From 	AWS NotificationsAdd contact
+To 	manhimf@uoregon.eduAdd contact
+Date 	Today 10:24
+Contact photo
+Message Body
+
+You are receiving this email because your Amazon CloudWatch Alarm "awsec2-i-0f6ea9f788bbef588-CPU-Utilization" in the US West (Oregon) region has entered the ALARM state, because "Threshold Crossed: 1 datapoint [99.67049180327868 (05/08/19 17:19:00)] was greater than or equal to the threshold (90.0)." at "Monday 05 August, 2019 17:24:43 UTC".
+
+View this alarm in the AWS Management Console:
+https://us-west-2.console.aws.amazon.com/cloudwatch/home?region=us-west-2#s=Alarms&alarm=awsec2-i-0f6ea9f788bbef588-CPU-Utilization
+
+Alarm Details:
+- Name:                       awsec2-i-0f6ea9f788bbef588-CPU-Utilization
+- Description:                Created from EC2 Console
+- State Change:               OK -> ALARM
+- Reason for State Change:    Threshold Crossed: 1 datapoint [99.67049180327868 (05/08/19 17:19:00)] was greater than or equal to the threshold (90.0).
+- Timestamp:                  Monday 05 August, 2019 17:24:43 UTC
+- AWS Account:                006170570170
+
+Threshold:
+- The alarm is in the ALARM state when the metric is GreaterThanOrEqualToThreshold 90.0 for 300 seconds.
+
+Monitored Metric:
+- MetricNamespace:                     AWS/EC2
+- MetricName:                          CPUUtilization
+- Dimensions:                          [InstanceId = i-0f6ea9f788bbef588]
+- Period:                              300 seconds
+- Statistic:                           Average
+- Unit:                                not specified
+
+
+
+State Change Actions:
+- OK:
+- ALARM: [arn:aws:sns:us-west-2:006170570170:team1]
+- INSUFFICIENT_DATA:
+--------------------------------------------------------------------------------------------------------------
+## Trigger Network in Alarm
+
+
+ALARM: "awsec2-i-0f6ea9f788bbef588-High-Network-In" in US West (Oregon)
+From 	AWS NotificationsAdd contact
+To 	manhimf@uoregon.eduAdd contact
+Date 	Today 02:39
+Contact photo
+Message Body
+You are receiving this email because your Amazon CloudWatch Alarm "awsec2-i-0f6ea9f788bbef588-High-Network-In" in the US West (Oregon) region has entered the ALARM state, because "Threshold Crossed: 1 datapoint [211666.6 (05/08/19 09:34:00)] was greater than or equal to the threshold (50000.0)." at "Monday 05 August, 2019 09:39:58 UTC".
+
+View this alarm in the AWS Management Console:
+https://us-west-2.console.aws.amazon.com/cloudwatch/home?region=us-west-2#s=Alarms&alarm=awsec2-i-0f6ea9f788bbef588-High-Network-In
+
+Alarm Details:
+- Name:                       awsec2-i-0f6ea9f788bbef588-High-Network-In
+- Description:                Created from EC2 Console
+- State Change:               OK -> ALARM
+- Reason for State Change:    Threshold Crossed: 1 datapoint [211666.6 (05/08/19 09:34:00)] was greater than or equal to the threshold (50000.0).
+- Timestamp:                  Monday 05 August, 2019 09:39:58 UTC
+- AWS Account:                006170570170
+
+Threshold:
+- The alarm is in the ALARM state when the metric is GreaterThanOrEqualToThreshold 50000.0 for 300 seconds.
+
+Monitored Metric:
+- MetricNamespace:                     AWS/EC2
+- MetricName:                          NetworkIn
+- Dimensions:                          [InstanceId = i-0f6ea9f788bbef588]
+- Period:                              300 seconds
+- Statistic:                           Average
+- Unit:                                not specified
+
+
+
+State Change Actions:
+- OK:
+- ALARM: [arn:aws:sns:us-west-2:006170570170:team1]
+- INSUFFICIENT_DATA: 
